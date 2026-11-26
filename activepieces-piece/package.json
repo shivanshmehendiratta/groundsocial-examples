@@ -1,0 +1,42 @@
+{
+  "name": "@groundsocial/piece-groundsocial",
+  "version": "0.1.0",
+  "description": "Activepieces piece for Groundsocial: public posts, comments, profiles, transcripts and search from 80+ platforms.",
+  "license": "MIT",
+  "author": "Groundsocial <hello@groundsocial.dev>",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shivanshmehendiratta/groundsocial-examples.git",
+    "directory": "activepieces-piece"
+  },
+  "keywords": [
+    "activepieces",
+    "piece",
+    "groundsocial",
+    "reddit",
+    "tiktok",
+    "youtube",
+    "social-media"
+  ],
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "test": "vitest run",
+    "prepublishOnly": "npm run build"
+  },
+  "dependencies": {
+    "@activepieces/pieces-common": "0.12.5",
+    "@activepieces/pieces-framework": "0.32.0",
+    "tslib": "^2.6.2",
+    "@activepieces/shared": "0.95.1"
+  },
+  "devDependencies": {
+    "@types/node": "^22.20.7",
+    "typescript": "5.9",
+    "vitest": "^3.2.7"
+  }
+}

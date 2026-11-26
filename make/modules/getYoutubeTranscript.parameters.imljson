@@ -1,0 +1,4 @@
+[
+  { "name": "video", "type": "text", "label": "Video ID or URL", "required": true },
+  { "name": "language", "type": "text", "label": "Language", "help": "e.g. en. Defaults to the original language." }
+]

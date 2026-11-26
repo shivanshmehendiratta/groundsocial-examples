@@ -1,0 +1,9 @@
+[
+  {
+    "name": "apiKey",
+    "type": "password",
+    "label": "API Key",
+    "help": "Your Groundsocial API key (starts with gs_live_). Create one at https://groundsocial.dev/app/sign-in?new=1. New accounts get 100 free credits.",
+    "required": true
+  }
+]

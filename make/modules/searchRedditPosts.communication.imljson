@@ -1,0 +1,15 @@
+{
+  "url": "/v1/reddit/search/posts",
+  "method": "GET",
+  "qs": {
+    "q": "{{parameters.query}}",
+    "subreddit": "{{parameters.subreddit}}",
+    "sort": "{{parameters.sort}}",
+    "t": "{{parameters.time}}",
+    "limit": "{{parameters.limit}}"
+  },
+  "response": {
+    "iterate": "{{body.data.children}}",
+    "output": "{{item.data}}"
+  }
+}

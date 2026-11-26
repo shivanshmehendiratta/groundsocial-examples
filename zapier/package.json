@@ -1,0 +1,1 @@
+{"name":"groundsocial-zapier","version":"1.0.0","description":"Zapier integration for Groundsocial","main":"index.js","private":true,"scripts":{"test":"jest --testTimeout 60000"},"engines":{"node":">=18"},"dependencies":{"zapier-platform-core":"^19.3.0"},"devDependencies":{"jest":"^29.7.0","zapier-platform-schema":"^19.3.0"}}

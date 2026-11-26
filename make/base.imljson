@@ -1,0 +1,15 @@
+{
+  "baseUrl": "https://api.groundsocial.dev",
+  "headers": {
+    "Authorization": "Bearer {{connection.apiKey}}"
+  },
+  "response": {
+    "error": {
+      "message": "[{{statusCode}}] {{body.error.message}} {{body.error.hint}}",
+      "type": "{{if(body.error.retryable, 'RateLimitError', 'RuntimeError')}}"
+    }
+  },
+  "log": {
+    "sanitize": ["request.headers.authorization"]
+  }
+}

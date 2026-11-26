@@ -1,0 +1,9 @@
+{
+  "url": "https://api.groundsocial.dev/v1/hackernews/stories",
+  "qs": { "limit": 1 },
+  "headers": { "Authorization": "Bearer {{parameters.apiKey}}" },
+  "log": { "sanitize": ["request.headers.authorization"] },
+  "response": {
+    "error": { "message": "[{{statusCode}}] {{body.error.message}} {{body.error.hint}}" }
+  }
+}

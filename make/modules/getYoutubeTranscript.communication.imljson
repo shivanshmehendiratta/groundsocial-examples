@@ -1,0 +1,6 @@
+{
+  "url": "/v1/youtube/videos/{{encodeURL(parameters.video)}}/transcript",
+  "method": "GET",
+  "qs": { "language": "{{parameters.language}}" },
+  "response": { "output": "{{body}}" }
+}

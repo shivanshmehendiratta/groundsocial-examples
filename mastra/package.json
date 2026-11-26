@@ -1,0 +1,1 @@
+{"name":"groundsocial-mastra-example","private":true,"type":"module","scripts":{"check":"tsx check.ts","start":"tsx agent.ts"},"dependencies":{"@ai-sdk/openai":"^4.0.125","@mastra/core":"^1.86.0","@mastra/mcp":"^2.11.0","tsx":"^4.23.15","zod":"^4.6.7"},"devDependencies":{"@types/node":"^26.6.11","typescript":"^7.0.2"}}

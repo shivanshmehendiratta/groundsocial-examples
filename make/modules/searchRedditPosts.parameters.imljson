@@ -1,0 +1,9 @@
+[
+  { "name": "query", "type": "text", "label": "Query", "required": true },
+  { "name": "subreddit", "type": "text", "label": "Subreddit", "help": "Without r/" },
+  { "name": "sort", "type": "select", "label": "Sort", "default": "relevance",
+    "options": [{"label": "Relevance", "value": "relevance"}, {"label": "New", "value": "new"}, {"label": "Top", "value": "top"}, {"label": "Comments", "value": "comments"}, {"label": "Hot", "value": "hot"}] },
+  { "name": "time", "type": "select", "label": "Time", "default": "week",
+    "options": [{"label": "Past hour", "value": "hour"}, {"label": "Past day", "value": "day"}, {"label": "Past week", "value": "week"}, {"label": "Past month", "value": "month"}, {"label": "Past year", "value": "year"}, {"label": "All time", "value": "all"}] },
+  { "name": "limit", "type": "uinteger", "label": "Limit", "default": 25, "validate": { "max": 100 } }
+]
